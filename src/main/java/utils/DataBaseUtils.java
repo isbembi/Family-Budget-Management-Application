@@ -5,7 +5,7 @@ import java.sql.*;
 public class DataBaseUtils {
     private static final String URL = "jdbc:mysql://localhost:3306/familybudget";
     private static final String USER = "root";  // Ваш MySQL пользователь
-    private static final String PASSWORD = "9497980204Bem-Bem";  // Ваш MySQL пароль
+    private static final String PASSWORD = "12345";  // Ваш MySQL пароль
 
     // Метод для установки соединения с базой данных
     public static Connection getConnection() throws SQLException {
